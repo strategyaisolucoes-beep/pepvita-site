@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d2b4e"/>
+      <stop offset="100%" stop-color="#1a5fa8"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a5fa8"/>
+      <stop offset="100%" stop-color="#0d2b4e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Strand 1: curves right then left then right -->
+  <path d="M50,4 C80,4 80,28 50,34 C20,40 20,62 50,68 C80,74 80,93 50,96"
+        stroke="url(#g1)" stroke-width="9" stroke-linecap="round" fill="none"/>
+
+  <!-- Strand 2: curves left then right then left -->
+  <path d="M50,4 C20,4 20,28 50,34 C80,40 80,62 50,68 C20,74 20,93 50,96"
+        stroke="url(#g2)" stroke-width="9" stroke-linecap="round" fill="none"/>
+
+  <!-- Highlight strand 1 -->
+  <path d="M50,5 C78,5 78,27 50,33 C22,39 22,61 50,67 C78,73 78,92 50,95"
+        stroke="#4a9de0" stroke-width="3.5" stroke-linecap="round" fill="none" opacity="0.4"/>
+
+  <!-- Rungs (6 crossbars) -->
+  <line x1="22" y1="16"  x2="78" y2="16"  stroke="#0d2b4e" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="22" y1="27"  x2="78" y2="27"  stroke="#0d2b4e" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="22" y1="50"  x2="78" y2="50"  stroke="#0d2b4e" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="22" y1="73"  x2="78" y2="73"  stroke="#0d2b4e" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="22" y1="84"  x2="78" y2="84"  stroke="#0d2b4e" stroke-width="4.5" stroke-linecap="round"/>
+</svg>
